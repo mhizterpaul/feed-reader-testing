@@ -1,0 +1,36 @@
+{
+  "name": "frontend-nanodegree-feedreader",
+  "version": "1.0.0",
+  "description": "feed reader testing",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "console.log('hello')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhizterpaul/feed-reader-testing.git"
+  },
+  "keywords": [
+    "testing",
+    "jasmine",
+    "tdd",
+    "unit",
+    "testing"
+  ],
+  "author": "mhizterpaul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhizterpaul/feed-reader-testing/issues"
+  },
+  "homepage": "https://github.com/mhizterpaul/feed-reader-testing#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^5.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1"
+  }
+}
