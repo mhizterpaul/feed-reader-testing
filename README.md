@@ -27,7 +27,7 @@ This project contains a test against a feed reader application using the jasmine
 
 ## Getting-Up-And-Running
 
- the src folder contains my src code and work environment including the tests and the dist folder contains the app ready for use. To get all the tools I used to prepare and test the final app pls check out [build-tools.md](https://mhizterpaul.github.io/feed-reader-testing/build-tools.md/)
+ the src folder contains my src code and work environment including the tests and the dist folder contains the app ready for use. To get all the tools I used to prepare and test the final app pls check out [build-tools.md](https://github.com/mhizterpaul/feed-reader-testing/blob/master/build-tools.md)
 
 
 ## Contributing
