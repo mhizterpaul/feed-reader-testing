@@ -59,7 +59,7 @@ $(function() {
     });
 
 
-    /* "The menu" : this test suite checks the menu item to make 
+    /* The menu : this test suite checks the menu item to make 
      *  sure they are hidden by default and that their visibility
      *  gets toggled when the menu icon is clicked
     */
@@ -100,7 +100,7 @@ $(function() {
         
     });
 
-    /* "Initial Entries" : this test suite ensure that
+    /* Initial Entries : this test suite ensure that
      * after the load function has executed there is at 
      * least 1 item in the .feed container
     */
@@ -129,7 +129,7 @@ $(function() {
 
          });
 
-    /* "New Feed Selection": this suite ensure that when
+    /* New Feed Selection : this suite ensure that when
      * the new feeds are loaded the contents of the .feed 
      * container changes accordingly
     */
