@@ -147,10 +147,10 @@ $(function() {
                 // call our asynchronous function and pass done as a call back;
 
                 loadFeed(0, function(){
-                    initialFeedEntry = $('.feed .entry');
+                    initialFeedEntry = $('.feed').html();
                     const id = Math.round((allFeeds.length + 1 )/2) - 1; 
                     loadFeed(id, function(){
-                        newFeedEntry = $('.feed .entry');
+                        newFeedEntry = $('.feed').html();
                         done();
                     });
                 });
@@ -158,7 +158,7 @@ $(function() {
 
             it('When a new feed is loaded the content of the .feed element should change', function(done){
                 // compare both collections 
-                expect(initialFeedEntry).not.toBe(newFeedEntry);
+                expect(initialFeedEntry).not.toEqual(newFeedEntry);
                 done();
             });
          });
