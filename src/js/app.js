@@ -10,16 +10,16 @@
 var allFeeds = [
     {
         name: 'Udacity Blog',
-        url: 'http://blog.udacity.com/feed'
+        url: 'https://blog.udacity.com/feed'
     }, {
         name: 'CSS Tricks',
-        url: 'http://feeds.feedburner.com/CssTricks'
+        url: 'https://feeds.feedburner.com/CssTricks'
     }, {
         name: 'HTML5 Rocks',
-        url: 'http://feeds.feedburner.com/html5rocks'
+        url: 'https://feeds.feedburner.com/html5rocks'
     }, {
         name: 'Linear Digressions',
-        url: 'http://feeds.feedburner.com/udacity-linear-digressions'
+        url: 'https://feeds.feedburner.com/udacity-linear-digressions'
     }
 ];
 
@@ -86,6 +86,7 @@ function init() {
 /* Google API: Loads the Feed Reader API and defines what function
  * to call when the Feed Reader API is done loading.
  */
+google.load()
 google.setOnLoadCallback(init);
 
 /* All of this functionality is heavily reliant upon the DOM, so we
