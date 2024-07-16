@@ -14,7 +14,7 @@
 
 ## About
 
-This project contains a test against a feed reader application using the jasmine framework. It is mainly to help me practice TDD and gain confidence while working with any application.
+This project contains a test against a feed reader application using the jasmine framework.
 
 
 ## Dependencies
